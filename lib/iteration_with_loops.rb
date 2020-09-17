@@ -13,6 +13,7 @@ def find_min_in_nested_arrays(src)
       element_index += 1 
     end
     min_daily_temp_array << min_daily_temp
+    min_daily_temp = 1000
     row_index += 1 
   end
   min_daily_temp_array
